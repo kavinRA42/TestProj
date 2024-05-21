@@ -1,0 +1,13 @@
+
+@import '~@swimlane/ngx-datatable/index.css';
+@import '~@swimlane/ngx-datatable/themes/material.css';
+@import '~@swimlane/ngx-datatable/assets/icons.css';
+@import url('https://unpkg.com/ag-grid-community@28.2.0/styles/ag-grid.css');
+@import url('https://unpkg.com/ag-grid-community@28.2.0/styles/ag-theme-alpine.css');
+
+@import '@ng-vibe/toastify/styles/styles';
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+

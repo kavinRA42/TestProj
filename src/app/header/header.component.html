@@ -1,0 +1,14 @@
+<header class="bg-blend-lighten hover:bg-blend-darken flex flex-nowrap shadow-lg p-4">
+    <div class="flex w-1/6 items-center">
+        <!-- <img class="inline size-8 m-2 border rounded-3xl bg-white" src="../../assets/letter-a.png" alt="asset logo"> -->
+        <span class="text-[#8AAAE5] font-bold pl-1 flex items-center h-1/2">Asset Manager</span>
+    </div>
+    <button class="text-sm items-center flex w-1/6" >
+        <a routerLink="/user-table-component" class="text-black flex items-center opacity-80  hover:text-[#8AAAE5]" [class.active-link]="isActiveLink">Users</a>
+        <hr>
+        <a href="./login.php" class="text-black flex items-center ml-10 opacity-80 hover:text-[#8AAAE5]">Assets</a>
+    </button>
+    <div class="text-sm flex ml-auto">
+        <button (click)="onLogout()" class="text-black items-end opacity-80 hover:text-[#8AAAE5]">Logout</button>
+    </div>
+</header>
